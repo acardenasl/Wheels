@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wheels/styles.dart';
 import 'home/home.dart';
+import 'login/login.dart';
 import 'styles.dart';
 
 void main() {
@@ -48,7 +49,7 @@ class _HomeState extends State<Home> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => HomeScreen(),
+                      builder: (context) => loginPage(),
                     ),
                   );
                 },
